@@ -11,7 +11,9 @@
 </head>
 <body>
    <!--navbar start-->
-   <nav>
+   <div class="row">
+        <div class="col-12">
+               <nav>
        <ul> 
        <li><a href="#"> <i class="fas fa-bars"></i> Menu</a></li>
         <li><a href="#"> <i class="fas fa-user"></i> Sign In</a></li>
@@ -19,27 +21,44 @@
         <li><a href="#"><i class="fas fa-video"></i> Videos  </a></li>
     </ul>
     </nav>
+        </div>
+      
+       
+   </div>
+ 
     <!--navbar end-->
     <!--main content -->
-    <div class="container">
+    <div class="row">
         <div class="logo">
             <h1 id="logo"><span class="orange">A</span>fro<span class="orange">S</span>earch</h1>
         </div>
+    </div>
         <!--search Bar-->
-        <div id="search">
+        <div class="row">
+            <div class="col-12">
+                <div id="search">
            <form action="#">
             <input type="text"  title="Enter search Text" placeholder="Enter text here">
             </form>
         </div>
-        <div>
+        </div>
+        <div class="col-12">
              <button class="searchBtn" title="click to search"><i class="fas fa-search"></i> Search </button>
             <button class="searchBtn" title="click for random website"><i class="fab fa-searchengin"></i> Surprise Me</button>
         </div>
+            
+        </div>
+        
         <!--general info-->
-        <div id="general-info">
+        <div class="row">
+            <div class="col-12">
+                <div id="general-info">
             <p>All search results localised to your region</p>
         </div>
-    </div>
+            </div>
+        </div>
+        
+  
     
 </body>
 </html>
